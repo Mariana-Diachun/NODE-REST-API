@@ -40,7 +40,7 @@ const UserSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
-    descr: {
+    desc: {
       type: String,
       max: 50,
     },
